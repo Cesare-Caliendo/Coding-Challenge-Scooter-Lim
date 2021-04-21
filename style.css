@@ -1,0 +1,70 @@
+body{
+background-image: url(background.jpg);
+background-size: cover;
+
+
+}
+
+.Container{
+   /* height: 1000px; */
+   width: 56%;
+   margin: 29%;
+   margin-top: 4%;
+   background-color: rgba(0, 0, 0, 0.5)
+ }
+
+ #lim{
+   max-width: 250px;
+   max-height:300px;
+ }
+ .barra-verde{
+   background-color: #0ee80e;
+   background-size: auto;
+
+ }
+
+
+ .logo{
+   text-align: center;
+   color: rgba(0, 0, 0, 0.3)
+
+
+ .Logo-text{
+   color: #0ee80e;
+ }
+}
+main{
+  color: white;
+}
+
+/* : é/:before{
+  content: '\25A1';
+} */
+
+.quadratino::before {
+  content: '\25A0';
+  color: white solid;
+  font-size: 25px;
+  padding-right: 5px;
+}
+
+.freccia::before {
+  content: '\21A6';
+  color: white solid;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+ .barra-aranc{
+   background-color: orange;
+   max-width: 40%;
+ }
+ .barra-rossa{
+   background-color: red;
+   max-width: 25%;
+ }
+ .barra-cento{
+   max-width: 55%;
+
+
+ }
